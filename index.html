@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Affan Dumba — 3rd Year B.Tech | AI/ML & Distributed Systems</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet" />
+  <meta name="description" content="Affan Dumba, CSE undergraduate at PES University. AI/ML, distributed systems, CTFs and entrepreneurship." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23ffe600'/%3E%3Ctext x='16' y='23' font-size='18' font-weight='bold' text-anchor='middle' font-family='sans-serif'%3EAD%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Affan Dumba</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="icon-btn" id="cat-toggle" aria-label="Toggle floating cat">
+          <span id="cat-label">Cat: ON</span>
+        </button>
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle yellow and black theme">
+          <span id="theme-label">Invert</span>
+        </button>
+        <button type="button" class="icon-btn" id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="status-badge">
+            <span class="status-pulse" aria-hidden="true"></span>
+            3rd Year B.Tech · PES University
+          </span>
+          <h1 class="hero-name">
+            Hi, I'm <span class="gradient-text">Affan Dumba</span>.
+          </h1>
+          <p class="hero-subtitle">
+            CSE undergraduate at PES University, Bengaluru, passionate about entrepreneurship and building impactful projects, focused on
+            <strong>Artificial Intelligence &amp; Machine Learning</strong> and
+            <strong>Distributed Systems</strong>—building reliable, scalable software from models to infrastructure.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="#contact" class="btn-secondary">Contact &amp; Links</a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Quick profile summary">
+          <div class="profile-avatar" aria-hidden="true">AD</div>
+          <div class="profile-meta-list">
+            <div class="profile-meta-item">
+              <span class="meta-label">Name</span>
+              <span class="meta-value">Affan Dumba</span>
+            </div>
+            <div class="profile-meta-item">
+              <span class="meta-label">Degree</span>
+              <span class="meta-value">B.Tech (3rd Year)</span>
+            </div>
+            <div class="profile-meta-item">
+              <span class="meta-label">University</span>
+              <span class="meta-value">PES University</span>
+            </div>
+            <div class="profile-meta-item">
+              <span class="meta-label">Focus Areas</span>
+              <span class="meta-value">AI/ML &amp; Distributed Systems</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About / Focus Areas Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-eyebrow">01 / Focus Areas</span>
+            <h2 class="section-title">What I Work On</h2>
+          </div>
+        </div>
+
+        <div class="cards-grid-2">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">ML</div>
+            <h3 class="card-title">AI &amp; Machine Learning</h3>
+            <p class="card-desc">
+              Exploring deep learning, model training pipelines, evaluation workflows, and applied machine learning systems that solve practical problems cleanly.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Model Training</span>
+              <span class="tag">Neural Networks</span>
+              <span class="tag">Data Pipelines</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">DS</div>
+            <h3 class="card-title">Distributed Systems</h3>
+            <p class="card-desc">
+              Interested in fault tolerance, consensus, concurrent services, and designing backend architectures that stay consistent and responsive under load.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Concurrency</span>
+              <span class="tag">Fault Tolerance</span>
+              <span class="tag">System Design</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">CTF</div>
+            <h3 class="card-title">Hackathons &amp; CTFs</h3>
+            <p class="card-desc">
+              Ranked <strong>1st from India</strong> in NNS CTF, an international CTF run by an Australian university, and <strong>5th</strong> in the international UNI6 CTF. Top 10 in college-level CTFs, plus hackathons like Gateway Hacks and Next Step Hacks.
+            </p>
+            <div class="tag-list">
+              <span class="tag">NNS CTF: 1st in India</span>
+              <span class="tag">UNI6 CTF: 5th</span>
+              <span class="tag">College CTFs: Top 10</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">$</div>
+            <h3 class="card-title">Entrepreneurship</h3>
+            <p class="card-desc">
+              Passionate about entrepreneurship, innovation and building impactful projects, and exploring opportunities in startups and venture creation.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Startups</span>
+              <span class="tag">Innovation</span>
+              <span class="tag">Building</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-eyebrow">02 / Technical Toolkit</span>
+            <h2 class="section-title">Skills &amp; Technologies</h2>
+          </div>
+        </div>
+
+        <div class="cards-grid-3">
+          <article class="card">
+            <h3 class="card-title">Languages &amp; Core</h3>
+            <p class="card-desc">Languages and web fundamentals used across my projects.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">C</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">Jupyter</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">AI / ML Stack</h3>
+            <p class="card-desc">Libraries I use for modelling, explainability and NLP.</p>
+            <div class="tag-list">
+              <span class="tag">scikit-learn</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">NLTK</span>
+              <span class="tag">SHAP</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Systems &amp; Tooling</h3>
+            <p class="card-desc">Networking, security and version-control tooling.</p>
+            <div class="tag-list">
+              <span class="tag">Git &amp; GitHub</span>
+              <span class="tag">Mininet</span>
+              <span class="tag">Ryu / OpenFlow</span>
+              <span class="tag">Sockets &amp; TLS</span>
+              <span class="tag">UDP / DNS</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-eyebrow">03 / Selected Work</span>
+            <h2 class="section-title">Projects</h2>
+          </div>
+          <div class="filter-bar" role="group" aria-label="Filter projects by category">
+            <button type="button" class="filter-btn active" data-filter="all">All</button>
+            <button type="button" class="filter-btn" data-filter="aiml">AI / ML</button>
+            <button type="button" class="filter-btn" data-filter="systems">Distributed Systems</button>
+          </div>
+        </div>
+
+        <div class="cards-grid-3" id="projects-grid">
+          <article class="card project-card" data-category="aiml">
+            <span class="project-badge">AI / ML</span>
+            <h3 class="card-title">Customer Churn Prediction</h3>
+            <p class="card-desc">Predicts customer churn with Logistic Regression, Random Forest, Gradient Boosting and a Neural Network, with SHAP explainability.</p>
+            <div class="tag-list">
+              <span class="tag">scikit-learn</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">SHAP</span>
+            </div>
+            <a class="card-link" href="https://github.com/affandumba/customer-churn-prediction" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </article>
+          <article class="card project-card" data-category="aiml">
+            <span class="project-badge">AI / ML</span>
+            <h3 class="card-title">Handwritten Digit Recognition</h3>
+            <p class="card-desc">CNN with a LeNet-5 inspired architecture trained on the MNIST dataset.</p>
+            <div class="tag-list">
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">CNN</span>
+            </div>
+            <a class="card-link" href="https://github.com/affandumba/handwritten-digit-recognition" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </article>
+          <article class="card project-card" data-category="aiml">
+            <span class="project-badge">AI / ML · PES Mini Project</span>
+            <h3 class="card-title">Song Recommender</h3>
+            <p class="card-desc">Song recommendation system built on linear algebra: norms, inner products, cosine similarity and orthogonal projection.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">Linear Algebra</span>
+              <span class="tag">Cosine Similarity</span>
+            </div>
+            <a class="card-link" href="https://github.com/affandumba/song-recommender-linear-algebra" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </article>
+          <article class="card project-card" data-category="systems">
+            <span class="project-badge">Systems & Networking</span>
+            <h3 class="card-title">SDN Access Control</h3>
+            <p class="card-desc">MAC whitelist access control using Mininet and a Ryu controller, with OpenFlow 1.3 rules that drop traffic from unauthorized hosts.</p>
+            <div class="tag-list">
+              <span class="tag">Mininet</span>
+              <span class="tag">Ryu</span>
+              <span class="tag">OpenFlow</span>
+            </div>
+            <a class="card-link" href="https://github.com/affandumba/sdn-access-control" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </article>
+          <article class="card project-card" data-category="systems">
+            <span class="project-badge">Systems & Networking</span>
+            <h3 class="card-title">Custom DNS Server</h3>
+            <p class="card-desc">UDP DNS server written from scratch in Python with local records, TTL caching, recursive forwarding to Google DNS and performance evaluation.</p>
+            <div class="tag-list">
+              <span class="tag">Python</span>
+              <span class="tag">UDP</span>
+              <span class="tag">Caching</span>
+            </div>
+            <a class="card-link" href="https://github.com/affandumba/custom-dns-server" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </article>
+          <article class="card project-card" data-category="systems">
+            <span class="project-badge">Systems & Networking</span>
+            <h3 class="card-title">Secure Port Scanner</h3>
+            <p class="card-desc">Networked port scanner on raw Python sockets with SSL/TLS, mutual authentication, banner grabbing, service detection and multi-client support.</p>
+            <div class="tag-list">
+              <span class="tag">Sockets</span>
+              <span class="tag">TLS</span>
+              <span class="tag">Security</span>
+            </div>
+            <a class="card-link" href="https://github.com/affandumba/custom-port-scanner" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-eyebrow">04 / Education &amp; Experience</span>
+            <h2 class="section-title">Education &amp; Experience</h2>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div>
+            <h3 class="card-title">Bachelor of Technology (B.Tech)</h3>
+            <p class="card-desc" style="margin-top: 4px;">
+              <strong>PES University</strong> · Bengaluru, India
+            </p>
+            <p class="card-desc" style="margin-top: 8px;">
+              Currently in 3rd Year · Areas of Interest: Artificial Intelligence, Machine Learning, and Distributed Systems.
+            </p>
+          </div>
+          <span class="edu-meta">3rd Year · Ongoing</span>
+        </div>
+
+        <div class="edu-card" style="margin-top: 22px;">
+          <div>
+            <h3 class="card-title">Summer Intern · Wipro</h3>
+            <p class="card-desc" style="margin-top: 4px;">
+              <strong>Wipro</strong> · via Edu-versity (Wipro DICE ID Partner Program)
+            </p>
+            <p class="card-desc" style="margin-top: 8px;">
+              Completed an internship during the summer after first year, gaining early industry exposure.
+            </p>
+          </div>
+          <span class="edu-meta">Summer after 1st Year</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-box">
+          <div>
+            <span class="section-eyebrow">05 / Get in Touch</span>
+            <h2 class="section-title">Connect With Me</h2>
+            <p class="card-desc" style="margin-top: 6px;">
+              Open to internships, collaborations and conversations about AI/ML and distributed systems.
+            </p>
+          </div>
+          <div class="contact-links">
+            <a class="btn-primary" href="mailto:affandumba07@gmail.com">Email Me</a>
+            <a class="btn-secondary" href="https://github.com/affandumba" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn-secondary" href="https://www.linkedin.com/in/affan-dumba-439674331/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 AFFAN DUMBA · NEOBRUTALIST EDITION · HTML5 &amp; CSS3</p>
+  </footer>
+
+  <!-- Floating Neobrutalist Cat -->
+  <div id="floating-cat" role="button" tabindex="0" aria-label="Floating cat companion, click for a meow">
+    <div class="cat-bubble" id="cat-bubble">meow!</div>
+    <svg class="cat-svg" id="cat-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <!-- Tail -->
+      <path d="M58 54 C69 52, 74 41, 68 33" stroke="#000000" stroke-width="6" stroke-linecap="round"/>
+      <path d="M58 54 C69 52, 74 41, 68 33" stroke="#FFE600" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Body -->
+      <rect x="20" y="34" width="40" height="30" rx="6" fill="#000000" stroke="#000000" stroke-width="3"/>
+      <!-- Yellow Belly Patch -->
+      <rect x="30" y="42" width="20" height="18" rx="4" fill="#FFE600"/>
+      <!-- Left Ear -->
+      <polygon points="20,36 22,14 35,28" fill="#000000" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+      <polygon points="24,31 24,20 31,28" fill="#FFE600"/>
+      <!-- Right Ear -->
+      <polygon points="60,36 58,14 45,28" fill="#000000" stroke="#000000" stroke-width="3" stroke-linejoin="round"/>
+      <polygon points="56,31 56,20 49,28" fill="#FFE600"/>
+      <!-- Head -->
+      <rect x="20" y="24" width="40" height="24" rx="8" fill="#000000" stroke="#000000" stroke-width="3"/>
+      <!-- Eyes -->
+      <rect x="28" y="31" width="6" height="7" rx="1" fill="#FFE600"/>
+      <rect x="46" y="31" width="6" height="7" rx="1" fill="#FFE600"/>
+      <rect x="30" y="33" width="2.5" height="3.5" fill="#000000"/>
+      <rect x="48" y="33" width="2.5" height="3.5" fill="#000000"/>
+      <!-- Nose & Whiskers -->
+      <polygon points="38,39 42,39 40,42" fill="#FFE600"/>
+      <line x1="14" y1="36" x2="23" y2="37" stroke="#FFE600" stroke-width="2" stroke-linecap="round"/>
+      <line x1="14" y1="41" x2="23" y2="40" stroke="#FFE600" stroke-width="2" stroke-linecap="round"/>
+      <line x1="57" y1="37" x2="66" y2="36" stroke="#FFE600" stroke-width="2" stroke-linecap="round"/>
+      <line x1="57" y1="40" x2="66" y2="41" stroke="#FFE600" stroke-width="2" stroke-linecap="round"/>
+      <!-- Paws -->
+      <rect x="23" y="61" width="10" height="7" rx="2" fill="#FFE600" stroke="#000000" stroke-width="2.5"/>
+      <rect x="47" y="61" width="10" height="7" rx="2" fill="#FFE600" stroke="#000000" stroke-width="2.5"/>
+    </svg>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
